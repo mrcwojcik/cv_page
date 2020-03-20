@@ -2,6 +2,9 @@
 
 body {
     margin: 0;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-family: 'Raleway', sans-serif;
   }
   
   article {
@@ -20,15 +23,25 @@ body {
   header {
     padding: 2em;
     text-align: center;
-    /*background-image: url('sciezka');*/
+    background-size: cover;
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    color: white;
+
+  }
+
+  header h1 {
+    text-transform: uppercase;
   }
   
   header section {
     margin: 0 auto;
+    max-width: 640px;
   }
   
   header img {
-  
+    max-width: 150px;
+    border-radius: 50%;
   }
   
   h1 {
