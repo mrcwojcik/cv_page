@@ -6,6 +6,14 @@ body {
     line-height: 1.8em;
     font-family: 'Raleway', sans-serif;
   }
+
+  a {
+    color: #1c9c94
+  }
+
+  a:hover {
+    opacity: 0.5;
+  }
   
   article {
     padding:0 1em;
@@ -129,4 +137,31 @@ body {
   
   footer {
    padding: 1em;
+   text-align: right;
+   background-color: #A7B8BF;
+   color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .course {
+      display: block;
+    }
+  
+    .course .title, .course .descrition {
+      max-width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .skills {
+      display: block;
+    }
+  
+    .skills .column {
+      max-width: 100%;
+    }
+  
+    footer {
+      text-align: center;
+    }
   }
